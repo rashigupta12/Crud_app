@@ -35,22 +35,22 @@ Delete User: Remove a user from the list.
    ```
    Create a .env file in the server directory with the following content:
    MONGO_URL=mongodb://localhost:27017/your-database-name
-   # or for MongoDB Atlas
+   or for MongoDB Atlas
    MONGO_URL=mongodb+srv://<username>:<password>@cluster0.mongodb.net/your-database-name?retryWrites=true&w=majority
-   # Replace <username>, <password>, and your-database-name with your actual MongoDB credentials.
+   Replace <username>, <password>, and your-database-name with your actual MongoDB credentials.
    ```
 7. Run the Server :
    ```
    cd server
-   npm start
-   The server will start on http://localhost:8000.
+   npm start 
    ```
+   The server will start on http://localhost:8000.
 8. Run the Client
    ```
    cd client
    npm start
-   The server will start on http://localhost:3000.
    ```
+   The server will start on http://localhost:3000.
 ## Usage
 Add User: Click on the "Add User" button to add a new user.
 Edit User: Click on the edit icon next to a user to update their details.
